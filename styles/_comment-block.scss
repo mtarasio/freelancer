@@ -1,0 +1,48 @@
+
+
+.comment-block__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    h2{
+        @extend %h2styles;
+    }
+    p{
+        @extend %h2subtitle;
+    }
+    .comment-block__item{
+        display: flex;
+        flex-direction: row;
+        gap:30px;
+        margin-top: 45px;
+        position: relative;
+        h4{
+            color: rgb(50, 50, 50);
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 2%;
+            text-align: left;
+        }
+        h6{
+            color: rgb(134, 134, 134);
+            line-height: 24px;
+            letter-spacing: 2%;
+            text-align: left;
+            margin-bottom: 18px;
+        }
+        .comment-block__item-description{
+            img{
+                position: absolute;
+                right: 0;
+            }
+            p{
+                max-width: 730px;
+                margin: 40px 0;
+            }
+        }
+
+    }
+}

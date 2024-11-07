@@ -1,0 +1,95 @@
+
+
+.pricing-block__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    h2{
+        @extend %h2styles;
+    }
+    > p{
+        @extend %h2subtitle;
+    }
+    .pricing-block__cards{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 108px;
+    }
+    h5{
+        color: rgb(66, 56, 175);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 2%;
+        text-align: center;
+    }
+    h4{
+        color: rgb(53, 52, 52);
+        font-family: Oswald;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 7%;
+        text-align: center;
+    }
+    h6{
+        color: rgb(138, 134, 185);
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;
+    }
+    .pricing-block__cards-items{
+        padding: 63px 66px;
+        border-radius: 20px;
+        box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+        background: rgb(255, 255, 255);
+        &:hover{
+            box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+            background: rgb(249, 250, 255);
+        }
+        > div{
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            margin-top: 71px;
+            align-items: center;
+            .item-wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 11px;
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+                p{
+                    color: rgb(168, 168, 168);
+                    line-height: 24px;
+                    letter-spacing: 2%;
+                }
+            }
+            .purchase-btn{
+                display: inline-block;
+                border-radius: 50px;
+                background: rgb(189, 187, 217);
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                letter-spacing: 2%;
+                text-align: center;
+                padding: 13px 23px;
+                margin-top: 47px;
+                &:hover{
+                    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+                    background: rgb(84, 76, 172);
+                }
+            }
+        }
+
+    }
+
+}

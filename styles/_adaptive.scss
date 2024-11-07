@@ -1,0 +1,177 @@
+
+
+@media (max-width: 1024px){
+    [class*="__container"] {
+       max-width: 960px;
+       margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    [class*="__container"] {
+       max-width: 740px;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin-top: 20px;
+       .menu{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header__input{
+        input{
+            width: 250px;
+        }
+    }
+    .main-block__description{
+        margin-top: 50px;
+    }
+    .wrap{
+        padding: 50px;
+    }
+    .main-block__description{
+        align-items: center;
+        h1{
+            text-align: center;
+        }
+    }
+    .jobs-block__btn{
+        margin-top: 31px;
+    }
+    }
+
+}
+
+@media (max-width: 320px){
+    [class*="__container"] {
+       max-width: 300px;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       h2{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+       }
+       .menu{
+        margin-left: 0;
+        margin-right: 0;
+        .menu__list{
+            gap: 10px;
+            }
+        }
+        .header__registration{
+            margin-top: 20px;
+        }
+        .main-block__description{
+            margin-top: 50px;
+            h1{
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 35px;
+            }
+            .main-block__description-btnblock{
+                gap: 10px;
+            }
+        }
+        .main-block__image{
+            img{
+                width: 300px;
+                height: 280px;
+            }
+    
+        }
+        iframe{
+            width: 300px;
+            height: 180px;
+            border-radius: 15px;
+        }
+        .whychooseus-block__cards-block{
+            flex-direction: column;
+            gap: 20px;
+            .whychooseus-block__cards-block-card{
+                padding: 15px;
+                h5{
+                    font-style: 18px;
+                }
+            }
+        }
+        .jobs-block__vacancies{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .comment-block__item{
+            flex-direction: column;
+            > img{
+                width:280px ;
+                height: 280px;
+            }
+        }
+        .wrap{
+            max-width: 250px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+        }
+        .pricing-block__cards{
+            flex-direction: column;
+
+        }
+        .pricing-block__cards-items{
+            padding: 20px;
+            > div {
+                margin-top: 10px;
+                .purchase-btn{
+                    margin-top: 10px;
+                }  
+            }
+        }
+
+        .footer__list{
+            flex-wrap: wrap;
+            .footer__list-column{
+                p:nth-child(1){
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+
+                    margin-bottom: 10px;
+                }
+            } 
+        }
+        hr{
+            margin-top: 15px;
+            border: 1px
+        }
+        .footer__links{
+            flex-wrap: wrap;
+            justify-content: center;
+            .footer__links-menu{
+                .footer__links-menu-list{
+                    gap: 5px;
+                    li{
+                        font-size: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+    .footer__container{
+        margin-top: 30px;
+    }
+    .statistics-block__container{
+        margin-top: 80px;
+    }
+}

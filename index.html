@@ -50,17 +50,19 @@
                             quis nostrud exercitation ullamco laboris nisi ut aliquip.</p> 
                         <div class="main-block__description-btnblock">
                             <a href="">Discover Now</a>
-                            <a href="">Watch Demo</a>
-                            <img src="./images/main/play btn.png" alt="">
+                            <div class="btn">
+                                <img src="./images/main/play btn.png" alt="">
+                                <a href="">Watch Demo</a>
+                            </div>                      
                         </div> 
                     </div>
                     <div class="main-block__image">
-                        <img src="./images/main/title image.jpg" alt="">
+                        <img src="./images/main/title image.png" alt="">
                     </div>
                 </div>
             </section>
-            <section class="page__brand-block">
-                <div>
+            <section class="page__brand-block brands">
+                <div class="brands__container">
                     <img src="./images/brands/brand 1.png" alt="">
                     <img src="./images/brands/brand 2.png" alt="">
                     <img src="./images/brands/brand 3.png" alt="">
@@ -75,19 +77,19 @@
                         <h6>How it works</h6>
                         <h2>Start find a job you love with us easily</h2>
                         <div class="howitworks-block__description-title">
-                            <div class="">1</div>
+                            <div class="title-a">1</div>
                             <h5>Complete Profile</h5>
-                            <img src="" alt="">
+                            <img src="./images/check mark.png" alt="">
                         </div>
                         <div class="howitworks-block__description-title">
-                            <div class="">2</div>
+                            <div class="title-b">2</div>
                             <h5>Search Vacancies</h5>
-                            <img src="" alt="">
+                            <img src="./images/check mark.png" alt="">
                         </div>
                         <div class="howitworks-block__description-title">
-                            <div class="">3</div>
+                            <div class="title-c">3</div>
                             <h5>Apply Job</h5>
-                            <img src="" alt="">
+                            <img src="./images/check mark.png" alt="">
                         </div>
                     </div>
                     <iframe class="howitworks-block__video" src="https://youtu.be/Mrq2ora_p0o?si=qtgGEb78I9L3qEpy"></iframe>
@@ -130,18 +132,34 @@
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="jobs-block__vacancies">
                         <div class="jobs-block__vacancies-card">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="./images/Programmer1.png" alt="personal user photo">
+                            <img class="specks" src="./images/specks.png" alt="specks vector">
                             <h5>Database Programmer</h5>
                             <h6>Marraz Team</h6>
                             <div class="jobs-block__vacancies-card-salary">
-                                <img src="" alt="">
+                                <img src="./images/money vector.png" alt="money vector">
                                 <p>$14,000 - $25,000 <span>/monthly</span></p>
                             </div>
                             <div class="jobs-block__vacancies-card-location">
-                                <img src="" alt="">
-                                <p>London,England <span>View map</span> </p>
+                                <img src="./images/point vector.png" alt="location vector">
+                                <p>London,England <span>/View map</span> </p>
                             </div>
+                            <a href="">Apply Now</a>
+                        </div>
+                        <div class="jobs-block__vacancies-card">
+                            <img src="./images/Programmer2.png" alt="personal user photo">
+                            <img class="specks" src="./images/specks.png" alt="specks vector">
+                            <h5>Database Programmer</h5>
+                            <h6>Marraz Team</h6>
+                            <div class="jobs-block__vacancies-card-salary">
+                                <img src="./images/money vector.png" alt="money vector">
+                                <p>$14,000 - $25,000 <span>/monthly</span></p>
+                            </div>
+                            <div class="jobs-block__vacancies-card-location">
+                                <img src="./images/point vector.png" alt="location vector">
+                                <p>London,England <span>/View map</span> </p>
+                            </div>
+                            <a href="">Apply Now</a>
                         </div>
                     </div>
                     <a class="jobs-block__btn" href="">View More</a>
@@ -157,6 +175,7 @@
                         <div class="comment-block__item-description">
                             <h4>William Smith</h4>
                             <h6>CEO OF THE LOVE STUDENTS</h6>
+                            <img src="./images/rating.png" alt="">
                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip.Lorem ipsum dolor 
@@ -164,28 +183,31 @@
                                 et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco 
                                 laboris nisi ut aliquip.”
                             </p>
-                            <img src="./images/jobs/jobs  arrow.png" alt="">
                             <img src="./images/folowers.png" alt="followers icons list">
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="page__statistics statistics-block">
+            <section class="page__statistics statistic-block">
                 <div class="statistics-block__container">
-                    <table class="statistics-block__table">
-                        <tr>
-                            <td>36,789</td>
-                            <td>45,973</td>
-                            <td>56,461</td>
-                            <td>852k</td>
-                        </tr>
-                        <tr>
-                            <td>Talented Freelancer</td>
-                            <td>Visitors</td>
-                            <td>Contract Made</td>
-                            <td>Companies</td>
-                        </tr>
-                    </table>
+                    <div class="wrap">
+                        <div class="statistic-block__data">
+                            <span>36,789</span>
+                            <p>Talented Freelancer</p>
+                        </div>
+                        <div class="statistic-block__data">
+                            <span>45,973</span>
+                            <p>Visitors</p>
+                        </div>
+                        <div class="statistic-block__data">
+                            <span>56,461</span>
+                            <p>Contract Made</p>
+                        </div>
+                        <div class="statistic-block__data">
+                            <span>852k</span>
+                            <p>Companies</p>
+                        </div> 
+                    </div>               
                 </div>
             </section>
             <section class="page__pricing pricing-block">
@@ -200,60 +222,67 @@
                             <h4>$0</h4>
                             <h6>Per month</h6>
                             <div>
-                                <div>
-                                    <img src="" alt="">
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
+                                    <a class="purchase-btn" href="">Purchase Now</a>
+                                </div>                               
                             </div>
-                            <a href="">Purchase Now</a>
+                            
                         </div>
                         <div class="pricing-block__cards-items">
                             <h5>PREMIUM</h5>
                             <h4>$175</h4>
                             <h6>Per month</h6>
                             <div>
-                                <div>
-                                    <img src="" alt="">
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
+                                    <a class="purchase-btn" href="">Purchase Now</a>
+                                </div>   
                             </div>
-                            <a href="">Purchase Now</a>
                         </div>
                         <div class="pricing-block__cards-items">
                             <h5>PLATNIUM</h5>
                             <h4>$500</h4>
                             <h6>Per month</h6>
                             <div>
-                                <div>
-                                    <img src="" alt="">
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="./images/orange check mark.png" alt="">
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div>
-                                    <img src="" alt="">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
+                                    <a class="purchase-btn" href="">Purchase Now</a>
+                                </div>   
                             </div>
-                            <a href="">Purchase Now</a>
                         </div>
                     </div>
                 </div>
